@@ -1,28 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
 
 
 
 
 </head>
+
 <body>
     <style>
- footer {
-        background-color: honeydew;
-    }
+        header {
+            font-family: 'Red Rose', cursive;
+        }
 
+        nav {
+            font-family: 'Red Rose', cursive;
+        }
+
+        footer {
+            background-color: honeydew;
+        }
+
+        #mytext {
+            color: black;
+        }
+
+        #mytext:hover {
+            color: blue;
+        }
     </style>
-   
+
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Home-Brian R</a>
+        <a id="mytext" class="navbar-brand" href="index.html">Home-Brian R</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,10 +50,10 @@
             <ul class="navbar-nav mr-auto">
 
                 <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <a id="mytext" class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a id="mytext" class="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">CALL: 714-123-4567</a>
@@ -58,28 +76,29 @@
 
 
 
+    <p class="container-fluid">Below are a couple of examples of websites I have created and/or maintained. I use the
+        knowledge I gained at UCI coding bootcamp to provide proffesionalism, quality and functionality to all sites
+        that I deploy</p>
 
-    <p class="container-fluid">Below are a couple of examples of websites I have created and/or maintained.  I use the knowledge I gained at UCI coding bootcamp to provide proffesionalism, quality and functionality to all sites that I deploy</p>
+    <section class="jumbotron">
+        <h1 class="display-4">Horiseon</h1>
+        <p class="lead">Search Engine Optimization</p>
+        <hr class="my-4">
+        <p>Social Media Marketing</p>
+        <a class="btn btn-primary btn-lg" href="https://brianra2nil.github.io/coderefactor/" role="button">See site</a>
+    </section>
 
-        <section class="jumbotron">
-            <h1 class="display-4">Horiseon</h1>
-            <p class="lead">Search Engine Optimization</p>
-            <hr class="my-4">
-            <p>Social Media Marketing</p>
-            <a class="btn btn-primary btn-lg" href="https://brianra2nil.github.io/coderefactor/" role="button">See site</a>
-        </section>
+    <section class="jumbotron">
+        <h1 class="display-4">Phone Store</h1>
+        <p class="lead">E-commerce site for mobile devices</p>
+        <hr class="my-4">
+        <p>Purchase online, and delivery implemented</p>
+        <a class="btn btn-primary btn-lg" href="https://brianra2nil.github.io/productcode/" role="button">See site</a>
+    </section>
 
-          <section class="jumbotron">
-            <h1 class="display-4">Phone Store</h1>
-            <p class="lead">E-commerce site for mobile devices</p>
-            <hr class="my-4">
-            <p>Purchase online, and delivery implemented</p>
-            <a class="btn btn-primary btn-lg" href="https://brianra2nil.github.io/productcode/" role="button">See site</a>
-          </section>
-
-          <section class="container-fluid">
-             <p class="container-fluid"> List of Services, call today for pricing:</p>
-          <ul >
+    <section class="container-fluid">
+        <p class="container-fluid"> List of Services, call today for pricing:</p>
+        <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>Javascript</li>
@@ -89,19 +108,19 @@
             <li>Query</li>
             <li>API</li>
 
-          </ul>
-        </section>
+        </ul>
+    </section>
 
 
 
 
-          <Footer class="footer">
-            <a class="nav-link" href="https://www.facebook.com/brian.ratunil">Find me on Facebook!</a>
-            <a class="nav-link" href="https://www.linkedin.com/in/brian-ratunil-0738b9102">Find me on LinkedIn!</a>
-            <a class="nav-link"href="mailto:brianra2nil@hotmail.com">Email me now!</a>.<br>
-            <p class="container-fluid"> Call 714-123-4567</p>
-            <p class="container-fluid"> &#169; 2020 - Brian Ratunil</p> 
-        </Footer>
+    <Footer class="footer">
+        <a class="nav-link" href="https://www.facebook.com/brian.ratunil">Find me on Facebook!</a>
+        <a class="nav-link" href="https://www.linkedin.com/in/brian-ratunil-0738b9102">Find me on LinkedIn!</a>
+        <a class="nav-link" href="mailto:brianra2nil@hotmail.com">Email me now!</a>.<br>
+        <p class="container-fluid"> Call 714-123-4567</p>
+        <p class="container-fluid"> &#169; 2020 - Brian Ratunil</p>
+    </Footer>
 
 
 
@@ -117,4 +136,5 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 </html>
