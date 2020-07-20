@@ -6,4 +6,4 @@ Repository:
 https://github.com/brianra2nil/responsiveportfolio
 
 Deployed site:
-https://brianra2nil.github.io/responsiveportfolio/.
+https://brianra2nil.github.io/responsiveportfolio/
